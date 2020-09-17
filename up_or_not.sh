@@ -1,7 +1,7 @@
 val=true
 while $val;
 do
-stat=$(nc -z results.vtu.ac.in 80; echo $?)
+stat=$(nc -z cardanosquare.com 80; echo $?)
 if [ $stat -eq 0 ]
 then
 	echo Server still running
