@@ -1,5 +1,5 @@
 val=true
-wget --no-check-certificate results.vtu.ac.in >/dev/null 2>&1
+wget --no-check-certificate pradyoth.cardanosquare.com >/dev/null 2>&1
 hash=$(sha1sum index.html)
 rm index.html
 while $val;
